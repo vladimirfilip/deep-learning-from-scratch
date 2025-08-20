@@ -5,3 +5,7 @@ A neural network library with customisable number of layers, layer size, activat
 ## Features
 - Supported activation functions: sigmoid, ReLU, tanh, softmax
 - Supported loss functions: MSE, generalised cross-entropy
+
+## Design
+- `NeuralNetwork` class to store layers, activation function, loss function and have feedforward() and train() functions
+- `VectorEngine` class to carry out vectorised calculations with OpenCL
